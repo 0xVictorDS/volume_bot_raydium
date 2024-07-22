@@ -44,8 +44,8 @@ SELL_ALL_BY_TIMES=20         # Number of times to sell all tokens in sub-wallets
 SELL_PERCENT=100             # Percentage of tokens to sell from the main wallet
 
 #### TOKEN PAIR SETTING ####
-TOKEN_MINT=6VbEGuqwhjdgV9NxhMhvRkrFqXVNk53CvD7hK3C3yQS9  # Token mint address
-POOL_ID=null                  # Pool ID for the token pair
+TOKEN_MINT=                  # Token mint address
+POOL_ID=null                 # Pool ID for the token pair
 
 TX_FEE=10                    # Transaction fee
 ADDITIONAL_FEE=0.006         # Additional fee (should be larger than 0.006 SOL)
@@ -60,8 +60,8 @@ LOG_LEVEL=info               # Logging level (info, debug, error)
 ## Usage
 1. Clone the repository
 ```
-git clone https://github.com/poseisol/raydium-volume-bot
-cd raydium-volume-bot
+git clone https://github.com/0xVictorDS/volume_bot_raydium.git
+cd volume_bot_raydium
 ```
 2. Install dependencies
 ```
@@ -81,4 +81,4 @@ npm start
 
 ### Please fork to use it and follow me on github.
 
-### If you want more customized app, please contact [@poseiman](https://t.me/poseiman) in Telegram and [.solbotdev](https://discordapp.com/users/1074553493974691840) in Discord
+### If you want more customized app, please contact [@TechTitanNo1](https://t.me/TechTitanNo1) in Telegram
